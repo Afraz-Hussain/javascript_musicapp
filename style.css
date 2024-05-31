@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+
+body {
+    background: radial-gradient(circle, rgb(1, 8, 44) 0%, rgb(143, 2, 30) 100%);
+    font-family: "Meddon", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    width: 400px;
+    height: 440px;
+    border: 1px solid white;
+    border-radius: 7px;
+    box-shadow: 0 14px 30px rgba(255, 255, 255, 0.377);
+    backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.pic {
+    margin-bottom: 20px;
+}
+
+.singername {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.songimg {
+    border: 1px solid white;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+.control {
+    font-size: 33px;
+    color: white;
+    display: flex;
+   justify-content: center;
+   gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.none {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.leftbtn {
+    transform: rotate(-180deg);
+}
+
+.progresscontainer{
+  
+    background-color: #fcb900;
+    color: white;
+    padding: 15px 45px;
+    display: none;
+    transition: 0.5s linear;
+}
+.progressbar{
+    width: 40px;
+    color: red;
+    height: 3px;
+}
